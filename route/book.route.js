@@ -1,11 +1,12 @@
-/*import express from "express";
+import express from "express";
 import { getBook } from "../controller/book.controller.js";
 
 const router = express.Router();
 
 router.get("/", getBook);
 
-export default router;*/
+export default router;
+/*
 
 import express from "express";
 import { getBook, postBook } from "../controller/book.controller.js";
@@ -15,3 +16,4 @@ router.post("/", postBook);
 router.get("/", getBook);
 
 export default router;
+*/
