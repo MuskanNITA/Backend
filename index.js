@@ -1,4 +1,4 @@
-/*import express from "express";
+import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
@@ -33,7 +33,8 @@ app.use("/user", userRoute);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
-});*/
+});
+/*
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
@@ -69,4 +70,4 @@ app.use("/user", userRoute);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
-});
+});*/
