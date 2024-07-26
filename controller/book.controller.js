@@ -1,4 +1,4 @@
-/*import Book from "../model/book.model.js";
+import Book from "../model/book.model.js";
 
 export const getBook = async(req, res) => {
     try {
@@ -8,7 +8,8 @@ export const getBook = async(req, res) => {
         console.log("Error: ", error);
         res.status(500).json(error);
     }
-};*/
+};
+/*
 import Book from '../model/book.model.js';
 
 // Function to get all books
@@ -46,4 +47,4 @@ export const postBook = async (req, res) => {
     console.log("Error: ", error);
     res.status(400).json({ message: 'Error creating book', error });
   }
-};
+};*/
